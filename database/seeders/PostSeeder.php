@@ -14,9 +14,10 @@ class PostSeeder extends Seeder
      */
     public function run()
     {
-        Post::create([
-            'title' => 'lorem ipsum dolor imit',
-            'body' => 'Similique molestias exercitationem officia aut. Itaque doloribus et rerum voluptate iure. Unde veniam magni dignissimos expedita eius.',
-        ]);
+        // Post::create([
+        //     'title' => 'lorem ipsum dolor imit',
+        //     'body' => 'Similique molestias exercitationem officia aut. Itaque doloribus et rerum voluptate iure. Unde veniam magni dignissimos expedita eius.',
+        // ]);
+        Post::factory()->create();
     }
 }
